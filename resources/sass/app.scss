@@ -1,0 +1,23 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// Bulma
+@import '~bulma/bulma';
+
+$font: 'Montserrat', sans-serif;
+
+// Variables
+@import 'variables';
+@import 'blog';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+}
+
+form {
+  margin-bottom: 20px;
+}
